@@ -1,7 +1,7 @@
 ---
 name: OneCore
 version: 0.0.1
-main: OneCore\Main
+main: twiqk\OneCore\Main
 api: 3.11.6
 
 
