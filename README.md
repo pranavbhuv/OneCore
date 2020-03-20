@@ -4,6 +4,7 @@ Open an issue for idea requests!
 
 ## Features
 | Name | Type | Description |
+| :---: | :---: | :---: |
 | [TrueSpawn] | Event | When player spawns make them always spawn at the servers default spawn! |
 | [CustomDeathMsg] | Event | Customize what should be said when a player kills another player! |
 | [CustomJoinMsg] | Event | Customize what the join message will be! |
