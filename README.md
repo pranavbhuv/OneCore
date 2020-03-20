@@ -23,3 +23,4 @@ Note: All features can be disabled or enabled depending on config.
 | [Vanish] | Command | Vanishes a player |
 | [KickAll] | Command | Kicks all players with a desired message. |
 | [CoinFlip] | Command | Flip a coin! |
+More coming soon...
