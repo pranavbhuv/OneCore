@@ -1,4 +1,4 @@
-# OneCore
+# OnePlug
 The first and last plugin you will ever need! An easy config to go with this as well!
 Open an issue for idea requests!
 Note: All features can be disabled or enabled depending on config.
