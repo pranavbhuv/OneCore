@@ -1,0 +1,64 @@
+---
+name: OneCore
+version: 0.0.1
+main: twiqk\OneCore\Main
+api: 3.11.6
+
+
+commands:
+  gmc:
+    description: "Creative Mode"
+    permission: castleraid.gmc
+
+  gms:
+    description: "Survival Mode"
+    permission: castleraid.gms
+
+  kickall:
+    description: "Kick all players on the server."
+    permission: castleraid.kickall
+
+  vanish:
+    description: "Become invisibile."
+    permission: castleraid.vanish
+
+  unvanish:
+    description: "Become visible."
+    permission: castleraid.unvanish
+
+  freeze:
+    description: "Freeze any player."
+    permission: castleraid.freeze
+
+  nick:
+    description: "Change your nametag."
+    permission: castleraid.freeze
+
+  warn:
+    description: "Warn a user, also smites them with lightning."
+    permission: castleraid.warn
+
+  heal:
+    description:  "Heal yourself!"
+    permission: castleraid.heal
+
+  feed:
+    description: "Feed yourself!"
+    permission: castleraid.feed
+
+  clrinv:
+    description: "Clear players inventory, or yours."
+    permission: castleraid.clrinv
+
+  requestadmin:
+    description: "Need help? Stuck? Run this command an Administrator will be with you."
+
+  getpos:
+    description: "Get your coords."
+
+  coinflip:
+    description: Flip a coin!
+
+
+
+...
