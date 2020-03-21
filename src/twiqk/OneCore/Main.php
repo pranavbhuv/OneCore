@@ -12,6 +12,7 @@ use pocketmine\event\player\PlayerDeathEvent;
 use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\event\player\PlayerLoginEvent;
 use pocketmine\event\player\PlayerQuitEvent;
+use pocketmine\event\player\PlayerToggleFlightEvent;
 use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat;
@@ -358,6 +359,17 @@ class Main extends PluginBase implements Listener
                         {
                             $sender->sendMessage(TextFormat::GRAY . "Tails!");
                         }
+                    }
+                }
+                break;
+
+            case "hub":
+                if($sender instanceof Player)
+                {
+                    if(!isset($args[0]))
+                    {
+                        $sender->teleport($this->getServer()->getDefaultLevel()->getSafeSpawn());
+                        $sender->sendMessage(TextFormat::GRAY . "You have been teleported to the hub.");
                     }
                 }
                 break;
