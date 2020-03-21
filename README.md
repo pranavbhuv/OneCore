@@ -4,6 +4,9 @@ Open an issue for idea requests or command requests!
 Note: All features can be disabled or enabled depending on config.
 More features coming soon!
 
+Plugin Requests?
+DM: https://discord.gg/NHr8kx8
+
 ## Features
 | Name | Type | Description |
 | :---: | :---: | :---: |
