@@ -57,7 +57,7 @@ commands:
     description: "Get your coords."
 
   coinflip:
-    description: Flip a coin!
+    description: "Flip a coin!"
 
 
 
