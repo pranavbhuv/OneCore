@@ -59,7 +59,7 @@ commands:
   coinflip:
     description: "Flip a coin!"
 
-  hub:
+  spawn:
     description: "Go to the servers main spawn!"
 
 
