@@ -363,13 +363,13 @@ class Main extends PluginBase implements Listener
                 }
                 break;
 
-            case "hub":
+            case "spawn":
                 if($sender instanceof Player)
                 {
                     if(!isset($args[0]))
                     {
                         $sender->teleport($this->getServer()->getDefaultLevel()->getSafeSpawn());
-                        $sender->sendMessage(TextFormat::GRAY . "You have been teleported to the hub.");
+                        $sender->sendMessage(TextFormat::GRAY . "You have been teleported to spawn.");
                     }
                 }
                 break;
