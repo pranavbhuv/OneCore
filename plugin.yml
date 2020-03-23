@@ -18,7 +18,7 @@ commands:
     description: "Kick all players on the server."
     permission: castleraid.kickall
 
-  vanish:
+  vvanish:
     description: "Become invisibile."
     permission: castleraid.vanish
 
@@ -38,11 +38,11 @@ commands:
     description: "Warn a user, also smites them with lightning."
     permission: castleraid.warn
 
-  heal:
+  healme:
     description:  "Heal yourself!"
     permission: castleraid.heal
 
-  feed:
+  feedme:
     description: "Feed yourself!"
     permission: castleraid.feed
 
