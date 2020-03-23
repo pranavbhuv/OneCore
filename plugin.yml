@@ -3,6 +3,9 @@ name: OneCore
 version: 0.0.1
 main: twiqk\OneCore\Main
 api: 3.11.6
+author: QuiverlyRivalry 
+helper: jaylac2000 # YOUR WELCOME FOR THE HELP :) 
+website: https://github.com/QuiverlyRivalry
 
 
 commands:
