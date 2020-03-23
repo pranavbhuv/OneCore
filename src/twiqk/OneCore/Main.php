@@ -146,7 +146,7 @@ class Main extends PluginBase implements Listener
                 }
                 break;
 
-            case "vanish":
+            case "vvanish":
                 if($sender->hasPermission("castleraid.vanish"))
                 {
                     if ($sender instanceof Player)
@@ -255,7 +255,7 @@ class Main extends PluginBase implements Listener
                 }
                 break;
 
-            case "heal":
+            case "healme":
                 if ($sender instanceof Player)
                 {
                     if($sender->hasPermission("castleraid.heal"))
@@ -266,7 +266,7 @@ class Main extends PluginBase implements Listener
                 }
                 break;
 
-            case "feed":
+            case "feedme":
                 if ($sender instanceof Player)
                 {
                     if($sender->hasPermission("castleraid.feed"))
