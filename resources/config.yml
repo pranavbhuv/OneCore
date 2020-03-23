@@ -17,17 +17,17 @@ truespawn: "yes"
 # When player joins, what should they see?
 welcomemsg: "§7OneCore, a core for all. \n §7Made by twiqk."
 # Should the server broadcast if a player joins? [yes or no]
-customjoinmsg: "yes"
+customjoinmsg: "no"
 # Use {player} for player.
 joinmsg: "§7{player} has joined the server! Welcome him!"
 # Should the server broadcast if a player quits? [yes or no]
-customquitmsg: "yes"
+customquitmsg: "no"
 # Use {player} for player.
 quitmsg: "§7{player} has quit the server!"
 
 
 # Should the server broadcast if someone dies in PvP? [yes or no]
-customdeath: "yes"
+customdeath: "no"
 # What should the server broadcast? Use {victim} and {killer}.
 deathmsg: "§c{victim} §7fell to the hands of §a{killer}"
 
@@ -37,7 +37,7 @@ kickallmsg: "The server administrator \n decided to kick all players."
 
 
 # Simple Broadcasting v1 [yes or no]
-enablebroadcasting: "yes"
+enablebroadcasting: "no"
 # Delay between each message in ticks? Note: 1 sec = 20 ticks
 delay: 120
 # Messages to be displayed, note the messages wont be displayed in any specific order!
@@ -47,7 +47,7 @@ message3: "Want more features? Open an issue."
 message4: "Change me in config!"
 
 # Simple MOTD Shuffle v1 [yes or no]
-enablemotdshuffle: "yes"
+enablemotdshuffle: "no"
 # Delay between each MOTD in ticks? Note: 1 sec = 20 ticks
 mdelay: 120
 # Messages to be displayed, note the messages wont be displayed in any specific order!
