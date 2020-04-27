@@ -338,7 +338,7 @@ class Main extends PluginBase implements Listener
                     if(!isset($args[0]))
                     {
                         $getx = $sender->getX();
-                        $gety = $sender->getYaw();
+                        $gety = $sender->getY();
                         $getz = $sender->getZ();
                         $sender->sendMessage(TextFormat::GRAY . "Your X: " . $getx . "\nYour Y: " . $gety . "\nYour Z: " . $getz);
                     }
