@@ -1,9 +1,9 @@
 ---
 name: OneCore
-author: twiqk or QuiverlyRivalry 
+author: twiqk 
 version: 0.0.1
 main: twiqk\OneCore\Main
-api: 3.11.6
+api: 3.0.0
 
 
 commands:
